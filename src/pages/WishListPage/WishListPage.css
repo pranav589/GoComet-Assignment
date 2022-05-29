@@ -1,0 +1,28 @@
+.wishListPage {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.wishListImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.wishListImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.wishListInfo button {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #ff6489;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
