@@ -42,18 +42,18 @@
 }
 
 .sizeSelect p {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   border: 1px solid #7e818c;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 50%;
   cursor: pointer;
 }
 
 .addToCart button {
-  padding: 1rem;
-  font-size: 1.4rem;
+  padding: 0.8rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   background-color: #ff6489;
   border: none;
