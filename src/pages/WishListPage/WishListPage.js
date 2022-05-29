@@ -12,7 +12,7 @@ function WishListPage() {
   }
 
   return wishList.map((prod) => (
-    <div>
+    <div key={prod.productId}>
       <div className="wishListPage">
         <div className="wishListImg">
           <img src={prod.images[0].src} alt="" />

@@ -82,7 +82,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin: 1.5rem 0;
 }
 
@@ -92,14 +92,15 @@
 }
 
 .modal button {
-  padding: 1rem;
-  font-size: 1rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   background-color: #ff6489;
   border: none;
   color: white;
   font-weight: 600;
   border-radius: 5px;
+  width: 100% !important;
 }
 
 .modal img {
@@ -109,6 +110,7 @@
 }
 
 .modalInfo {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
